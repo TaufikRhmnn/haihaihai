@@ -1,0 +1,247 @@
+
+
+/* logo navbar */
+.logo{
+    margin-top:-10px;
+    margin-left:10px;
+}
+
+.navbar-nav{
+    width:100%;
+}
+
+
+/* Jumbotron */
+.jumbotronn{
+    height:400px;
+    display:grid;
+    grid-template-columns: repeat(2,300px);
+    grid-template-areas: 'fotoprofil helloimtaufik';
+}
+
+
+.tombol{
+    background-color:#00CBA9;
+    color:white;
+    border-radius:20px;
+}
+
+.fotoprofil{
+    grid-area:fotoprofil;
+    margin:auto;
+    width:350px;
+    border-radius:50px;
+}
+
+.helloimtaufik{
+    grid-area:helloimtaufik;
+    margin:auto;
+    color:black;
+}
+
+/* Bagian dua */
+.bagiandua{
+    margin-top:10px;
+    display:grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-template-areas: 'myexperties fotomyexperties';
+}
+
+.myexperties{
+    grid-area: myexperties;
+    margin-left:100px;
+}
+
+.myexperties span{
+    color:#00CBA9;
+}
+
+.myexperties ul{
+    list-style:none;
+    margin-top:30px;
+}
+
+.fotomyexperties{
+    grid-area: fotomyexperties;
+    margin:auto;
+    position:relative;
+}
+
+.blow{
+    width:500px;
+    position:absolute;
+    left:500px;
+   transform: scale(1.5);
+   z-index:-10;
+    
+}
+
+.fotomyexperties1{
+ 
+  
+    width:600px;
+}
+
+
+/* Bagian kedua */
+
+.recent{
+    width:100%;
+    text-align:center;
+    margin-top:90px;
+    position:relative;
+    
+}
+
+.recent span{
+    color:#00CBA9;
+}
+
+.fotorecent{
+    margin-top:30px;
+    width:600px;
+    height:300px;
+    box-shadow: 5px 10px 10px rgb(110, 104, 104);
+}
+
+.tombolrecent{
+    border-radius: 30px;
+    background-color: #00CBA9;
+    color:white;
+    margin-top:40px;
+}
+
+
+/* Client Say */
+.clientsay{
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(3, 280px);
+    grid-template-areas: 'commentclient commentclient commentclient'
+                        'card1 card2 card3';
+    place-content: center center;
+    justify-content:space-around;
+}
+
+.commentclient{
+    margin-top:90px;
+    text-align:center;
+    grid-area: commentclient;
+    margin-bottom:40px;
+   
+}
+
+.card1{
+    grid-area: card1;
+   box-shadow: 1px 1px 5px 5px rgb(59, 204, 172);
+   border:1px solid rgb(65, 223, 189);
+   padding:30px;
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.card2{
+    grid-area: card2;
+    border:1px solid rgb(65, 223, 189);
+    box-shadow: 1px 1px 5px 5px rgb(59, 204, 172);
+    padding:30px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card3{
+    grid-area:card3;
+    border:1px solid rgb(65, 223, 189);
+    padding:30px;
+    box-shadow: 1px 1px 5px 5px rgb(59, 204, 172);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.readmore{
+    width:80px;
+    border-radius:30px;
+    background-color:#00CBA9 ;
+    color:white;
+    font-size:9px;
+}
+
+.card1>p, .card2>p, .card3>p{
+    text-align:center;
+    font-size:10px;
+}
+
+
+/* Contact */
+
+.contact{
+    margin-top:40px;
+    text-align:center;
+    height:300px;
+    position: relative;
+    background-color: rgb(160, 118, 56);
+}
+
+.blow1{ 
+    width:100px;
+    position:absolute;
+    left:250px;
+}
+
+#inputemail{
+    margin-top:200px;
+    border-radius:30px;
+}
+
+#submitemail{
+    margin-left:-5px;
+    border-radius:30px;
+    background-color:#00CBA9;
+    color:white;
+}
+
+
+
+
+/* Footer */
+
+footer{
+    text-align:center;
+    width:100%;
+   
+}
+
+footer p{
+  position:relative;
+  top:270px;
+  display:inline-block;
+}
+
+/* Desktop Version */
+@media(min-width:992px){
+
+    /* NAVBAR */
+    .navbar-nav{
+        margin-top:-20px;
+        margin-left:2px;
+        display:flex;
+        justify-content:center;
+    }
+
+    
+    .navbar-nav a{
+    margin-left:10px;
+    
+}
+
+    
+   .navbar-nav .sayhi{
+    margin-left:10px;
+   }
+
+
+
+}
