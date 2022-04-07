@@ -213,7 +213,7 @@ grid-area: fotoprofil;
 
 .contact .blow3{
     width:500px;
-    transform:scale(1);
+    transform:scale(0.7);
     position:absolute;
     top:0;
     left:0;
@@ -228,10 +228,20 @@ grid-area: fotoprofil;
 
 /* footer */
 
-footer p{
-    margin-top:100px;
+.footer p{
+   
     text-align:center;
     font-size:13px;
+    text-shadow: black;
+    
+}
+
+.footer{
+    height:20px;
+    padding-bottom:10px;
+    background-color:#00CBA9 ;
+    color:rgb(243, 237, 237);
+    margin-bottom:0;
 }
 
 
@@ -241,7 +251,10 @@ footer p{
 
 @media(min-width:996px){
 
+  
+
     .navbar-nav{
+       
         margin-top:-20px;
         margin-left:180px;
         
